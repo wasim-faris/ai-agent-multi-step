@@ -1,0 +1,17 @@
+/*
+  index.css — minimal global reset.
+  All real styles are in App.css.
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #f2f7f3;
+  color: #203a32;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
